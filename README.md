@@ -61,5 +61,5 @@ Final step is to code all this using build-in PyTorch method. Lets compare predi
 Predictions: </br>
 <img src="readme-files/preds_3.png" alt="preds3" width="470"/> </br>
 Targets: </br>
-<img src="readme-files/targets_3.png" alt="targets3" width="470"/>
+<img src="readme-files/targets_3.png" alt="targets3" width="470"/> </br>
 At this point result are very good. As we can see loss functions is just 7 and values in the predictions and targets are very similar. This means that our model is working properly.
