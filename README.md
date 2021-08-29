@@ -14,12 +14,12 @@ Linear regression model's target variable is estimated to be a weighted sum of t
 yield_apple  = w11 * temp + w12 * rainfall + w13 * humidity + b1
 yield_orange = w21 * temp + w22 * rainfall + w23 * humidity + b2
 ```
-***Model*** is simply a function that performs a matrix multiplication of the `inputs` and the weights `w` (transposed) and adds the bias `b` (replicated for each observation).
-<img src="readme-files/model.png" alt="model" width="508"/>
+***Model*** is simply a function that performs a matrix multiplication of the `inputs` and the weights `w` (transposed) and adds the bias `b` (replicated for each observation). </br>
+<img src="readme-files/model.png" alt="model" width="508"/> </br>
 
 Lets compare our model (initialized with random values) with targets from table. </br>
 Predictions: </br>
-<img src="readme-files/preds.png" alt="preds" width="470"/> 
+<img src="readme-files/preds.png" alt="preds" width="470"/> </br>
 Targets: </br>
 <img src="readme-files/targets.png" alt="targets" width="470"/>
 
@@ -52,14 +52,14 @@ Now value of loss functions is 111.38. </br>
 
 Now lets compare predictions and target once more. </br>
 Predictions: </br>
-<img src="readme-files/preds_2.png" alt="preds2" width="470"/>
+<img src="readme-files/preds_2.png" alt="preds2" width="470"/> </br>
 Targets: </br>
-<img src="readme-files/targets_2.png" alt="targets2" width="470"/>
+<img src="readme-files/targets_2.png" alt="targets2" width="470"/> </br>
 Similarity can be seen at this point.
 
 Final step is to code all this using build-in PyTorch method. Lets compare predictions and targets last time (but now from build-in methods): </br>
 Predictions: </br>
-<img src="readme-files/preds_3.png" alt="preds3" width="470"/>
+<img src="readme-files/preds_3.png" alt="preds3" width="470"/> </br>
 Targets: </br>
 <img src="readme-files/targets_3.png" alt="targets3" width="470"/>
 At this point result are very good. As we can see loss functions is just 7 and values in the predictions and targets are very similar. This means that our model is working properly.
