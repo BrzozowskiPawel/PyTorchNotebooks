@@ -1,10 +1,8 @@
 # PytorchNotebooks
-This repo is made for learning PyTorch. I will be following [tutorial] (https://youtu.be/GIsg-ZUy0MY) and save data as Jupyter Notebooks (also on Google Colab). Furthermore, there will be a quick summary of every chapter in this readme file.
+This repo is made for learning PyTorch. I will be following [tutorial](https://youtu.be/GIsg-ZUy0MY) and save data as Jupyter Notebooks (also on Google Colab). Furthermore, there will be a quick summary of every chapter in this readme file.
 
 ## Table of Contents
-- [PytorchNotebooks](#pytorchnotebooks)
-  - [Table of Contents](#table-of-contents)
-  - [Chapter 1: - Linear Regression](#chapter-1---linear-regression)
+- [Chapter 1: - Linear Regression](#chapter-1---linear-regression)
 
 ## Chapter 1: - Linear Regression
 Linear Regression is a method that uses a linear combination of variables and parameters to fit it to the model. In this section our task is to train model that will predict crops of apples and oranges with 3 parameters that have been affecting plantations.</br>
