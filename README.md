@@ -5,6 +5,8 @@ This repo is made for learning PyTorch. I will be following [tutorial](https://y
 - [Chapter 1: - Linear Regression](#chapter-1---linear-regression)
 
 ## Chapter 1: - Linear Regression
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1MFDhnQZppdOlY0fiJsS6XZOB7lXuNAeZ?usp=sharing] or dowload this file. </br> 
+
 Linear Regression is a method that uses a linear combination of variables and parameters to fit it to the model. In this section our task is to train model that will predict crops of apples and oranges with 3 parameters that have been affecting plantations. </br>
 All that data is shown in the table below: </br>
 <img src="readme-files/table.png" alt="table" width="640"/>
